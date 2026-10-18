@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ean Johnson</title>
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --fg: #1c1b19;
+    --muted: #605c55;
+    --rule: #e0dcd3;
+    --link: #6b4a1f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #16151a;
+      --fg: #ebe8e2;
+      --muted: #a09b92;
+      --rule: #2e2c33;
+      --link: #d6b483;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 Georgia, "Iowan Old Style", "Times New Roman", serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 36rem; margin: 0 auto; padding: 4.5rem 16px 5rem; }
+  h1 { font-size: 1.9rem; letter-spacing: -0.01em; margin: 0 0 .35rem; font-weight: 600; }
+  .sub { color: var(--muted); margin: 0 0 2.5rem; font-style: italic; }
+  h2 {
+    font-size: .78rem; text-transform: uppercase; letter-spacing: .1em;
+    font-family: system-ui, sans-serif; font-weight: 600;
+    color: var(--muted); margin: 2.75rem 0 .75rem;
+  }
+  p { margin: 0 0 1rem; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0 0; }
+  a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Ean Johnson</h1>
+  <p class="sub">Aerospace engineering, politics, and a great many books.</p>
+
+  <p>A homeschooled senior in Florida, headed for aerospace engineering. I co-host
+  <em>We The Teens</em>, write video essays, and read more Chesterton than is strictly defensible.</p>
+
+  <h2>Voice Vault</h2>
+  <p>Voice Vault is a personal automation agent I built for myself. It telephones me once a day,
+  asks how the day went, and files what I tell it into my own notes. It reads and writes events on
+  my own Google Calendar so that it can remind me of the things I said I would do.</p>
+  <p>It has exactly one user: me. It is not a product, it is not for sale, and it has no
+  sign-up. The <a href="privacy.html">privacy policy</a> explains what it touches and what it
+  does not.</p>
+
+  <hr>
+  <footer>Last updated 18 October 2026.</footer>
+</main>
+</body>
+</html>
